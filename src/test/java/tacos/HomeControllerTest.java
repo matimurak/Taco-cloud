@@ -17,7 +17,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 //import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-@ExtendWith(SpringExtension.class)
+@ExtendWith(SpringExtension.class)  // replaces "@RunWith" annotation from book
 @WebMvcTest(HomeController.class)
 
 public class HomeControllerTest {
